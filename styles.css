@@ -1,0 +1,180 @@
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: block;
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    min-width: 290px;
+    top: 0; 
+    left:0;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+    background-color: #afbed1;
+  }
+  nav#navbar header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-size: 1.8em;
+  }
+  
+  nav#navbar ul {
+    padding: 0;
+  }
+  
+  nav#navbar ul li {
+    position: relative;
+    border-top: 1px solid;
+    overflow: hidden;
+  }
+  
+  nav#navbar ul li a {
+    padding: 10px 30px;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    color: black; 
+  }
+  .white-belt:hover {
+    background-color: ghostwhite;
+  }
+  .yellow-tag:hover {
+    background-image: linear-gradient(white, yellow);
+  }
+  .yellow:hover {
+    background-color: yellow;
+  }
+  .green-tag:hover {
+    background-image: linear-gradient(yellow, green);
+  }
+  .green:hover {
+    background-color: green;
+  }
+  .blue-tag:hover {
+    background-image: linear-gradient(green, blue);
+  }
+  .blue:hover {
+    background-color: blue;
+  }
+  .red-tag:hover {
+    background-image: linear-gradient(blue, red);
+  }
+  .red:hover {
+    background-color: red;
+  }
+  .black-tag:hover {
+    background-image: linear-gradient(red, rgba(15, 14, 14, 0.922));
+  }
+  .black:hover {
+  background-color:rgba(15, 14, 14, 0.922);
+  }
+  #navbar ul li a:hover {
+    font-weight: 600;
+  }
+  
+  main {
+    display: block;
+    position: absolute; 
+    margin-left: 300px;
+    padding: 20px;
+    background-color: #CBD5E1;
+  }
+  
+  main header {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  main p {
+    margin-left: 10px;
+  }
+
+  .main-section#white_belt {
+    padding: 20px;
+  }
+  
+  .main-section {
+    border: 2px double black
+  }
+  #white_belt {
+    background-color: white;
+  }
+  #yellow_tag {
+    background-image: linear-gradient(white, yellow);
+    padding: 20px;
+  }
+  
+  #yellow_belt {
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  #green_tag {
+    background-image: linear-gradient(yellow, green);
+    padding: 20px;
+  }
+  
+  #green_belt {
+    background-color: green;
+    padding: 20px;
+  }
+  #blue_tag {
+    background-image: linear-gradient(green, blue);
+    padding: 20px;
+  }
+  #blue_belt {
+    background-color: blue;
+    padding: 20px;
+  }
+  #red_tag {
+    background-image: linear-gradient(blue, red);
+    padding: 20px;
+  }
+  #red_belt {
+    background-color: red;
+    padding: 20px;
+  }
+  
+  #black_tag {
+    background-image: linear-gradient(red, rgba(15, 14, 14, 0.922));
+    padding: 20px;
+  }
+  
+  .main-section#black_tag ul {
+    color:white;
+  }
+  
+  #black_belt {
+    background-color: rgba(15, 14, 14, 0.922);
+    color: ghostwhite;
+    padding: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+    nav {
+    width: 250px;
+    height: 100%;
+    min-width: 200px;
+  }
+  
+  nav#navbar header {
+    font-size: 1.6em;
+  }
+  
+  main { 
+    margin-left: 250px;
+    padding: 15px;
+  }
+  
+  main header {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
+  main p {
+    margin-left: 8px;
+  }
+  }
+  
